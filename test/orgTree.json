@@ -1,0 +1,992 @@
+[{
+    "id": 1120882,
+    "status": 1,
+    "fullname": "奇鱼时代",
+    "managerId": 538364,
+    "managerUser": {
+        "id": 538364,
+        "fullname": "史有才",
+        "avatar": "https://static.weibangong.com/files/56e2d957e4b01322050b3a10",
+        "tenantId": 1120882,
+        "access": 327677,
+        "status": 1,
+        "type": 2
+    },
+    "level": 0,
+    "parentIds": [
+        1120882
+    ],
+    "children": [
+        {
+            "id": 538332,
+            "status": 1,
+            "createdById": 0,
+            "createdAt": 1457703920000,
+            "updatedById": 1,
+            "updatedAt": 1503281126000,
+            "tenantId": 1120882,
+            "fullname": "奇鱼总部",
+            "avatar": "58be603a033223dabdff330e",
+            "weight": 0,
+            "managerId": 538364,
+            "managerUser": {
+                "id": 538364,
+                "fullname": "史有才",
+                "avatar": "https://static.weibangong.com/files/56e2d957e4b01322050b3a10",
+                "tenantId": 1120882,
+                "access": 327677,
+                "status": 1,
+                "type": 2
+            },
+            "parentId": 1120882,
+            "level": 1,
+            "parentIds": [
+                1120882,
+                538332
+            ],
+            "children": [
+                {
+                    "id": 670980,
+                    "status": 1,
+                    "createdById": 538364,
+                    "createdAt": 1463626509000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "董事和CXO",
+                    "avatar": "5872f4ebf0699dcf3e9ef3a8",
+                    "weight": 0,
+                    "managerId": 538364,
+                    "managerUser": {
+                        "id": 538364,
+                        "fullname": "史有才",
+                        "avatar": "https://static.weibangong.com/files/56e2d957e4b01322050b3a10",
+                        "tenantId": 1120882,
+                        "access": 327677,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        670980
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 1098122,
+                    "status": 1,
+                    "createdById": 538364,
+                    "createdAt": 1483450292000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "总裁办",
+                    "avatar": "586ba7b571190396a4803ce2",
+                    "weight": 1,
+                    "managerId": 538364,
+                    "managerUser": {
+                        "id": 538364,
+                        "fullname": "史有才",
+                        "avatar": "https://static.weibangong.com/files/56e2d957e4b01322050b3a10",
+                        "tenantId": 1120882,
+                        "access": 327677,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        1098122
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 7646,
+                    "status": 1,
+                    "createdById": 1187,
+                    "createdAt": 1421647908000,
+                    "updatedById": 1,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "产品技术部",
+                    "avatar": "57300769e4b068b4cfc7a00d",
+                    "weight": 2,
+                    "managerId": 670834,
+                    "managerUser": {
+                        "id": 670834,
+                        "fullname": "吴凯",
+                        "avatar": "https://static.weibangong.com/files/573d3600e4b0e5b08a0156e5",
+                        "tenantId": 1120882,
+                        "access": 64957,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        7646
+                    ],
+                    "children": [
+                        {
+                            "id": 700047,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464836939000,
+                            "updatedById": 538363,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "数据运营",
+                            "avatar": "574fa34de4b098147969c59a",
+                            "weight": 0,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                700047
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686255,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464336400000,
+                            "updatedById": 1,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "服务端",
+                            "avatar": "57480011e4b0009976b6df4d",
+                            "weight": 1,
+                            "managerId": 813014,
+                            "managerUser": {
+                                "id": 813014,
+                                "fullname": "张敏",
+                                "avatar": "https://static.weibangong.com/files/57a817a8acd94f9954d6d8c0",
+                                "tenantId": 1120882,
+                                "access": 0,
+                                "status": 1,
+                                "type": 2
+                            },
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686255
+                            ],
+                            "children": [
+                                {
+                                    "id": 1305399,
+                                    "status": 1,
+                                    "createdById": 538363,
+                                    "createdAt": 1490930939000,
+                                    "updatedById": 538363,
+                                    "updatedAt": 1503281126000,
+                                    "tenantId": 1120882,
+                                    "fullname": "平台应用组",
+                                    "avatar": "596c7561cb39b9a094381202",
+                                    "weight": 1,
+                                    "managerId": 90198,
+                                    "managerUser": {
+                                        "id": 90198,
+                                        "fullname": "蒋宪增",
+                                        "avatar": "https://static.weibangong.com/files/55e3badf09922b2301a3b595",
+                                        "tenantId": 1120882,
+                                        "access": 0,
+                                        "status": 1,
+                                        "type": 2
+                                    },
+                                    "parentId": 686255,
+                                    "level": 4,
+                                    "parentIds": [
+                                        1120882,
+                                        538332,
+                                        7646,
+                                        686255,
+                                        1305399
+                                    ],
+                                    "permitOpen": false,
+                                    "deptGroupHide": 1,
+                                    "privacyAccesses": []
+                                },
+                                {
+                                    "id": 1305401,
+                                    "status": 1,
+                                    "createdById": 538363,
+                                    "createdAt": 1490930955000,
+                                    "updatedById": 538363,
+                                    "updatedAt": 1503281126000,
+                                    "tenantId": 1120882,
+                                    "fullname": "平台支撑组",
+                                    "avatar": "596c75f1d652382a250711eb",
+                                    "weight": 2,
+                                    "managerId": 670247,
+                                    "managerUser": {
+                                        "id": 670247,
+                                        "fullname": "郑晓洛",
+                                        "avatar": "https://static.weibangong.com/files/57458c5ae4b02d09348c1cc7",
+                                        "tenantId": 1120882,
+                                        "access": 0,
+                                        "status": 1,
+                                        "type": 2
+                                    },
+                                    "parentId": 686255,
+                                    "level": 4,
+                                    "parentIds": [
+                                        1120882,
+                                        538332,
+                                        7646,
+                                        686255,
+                                        1305401
+                                    ],
+                                    "permitOpen": false,
+                                    "deptGroupHide": 1,
+                                    "privacyAccesses": []
+                                }
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686258,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464336434000,
+                            "updatedById": 1,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "客户端-iOS",
+                            "avatar": "57480033e4b08609dd7ff79d",
+                            "weight": 2,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686258
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686274,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464336456000,
+                            "updatedById": 1,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "客户端-Android",
+                            "avatar": "57480049e4b08609dd7ff79f",
+                            "weight": 3,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686274
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686300,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464336493000,
+                            "updatedById": 1,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "前端",
+                            "avatar": "5748006ee4b08609dd7ff7a2",
+                            "weight": 4,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686300
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686303,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464336507000,
+                            "updatedById": 1,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "测试",
+                            "avatar": "5748007de4b08609dd7ff7aa",
+                            "weight": 5,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686303
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686304,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464336516000,
+                            "updatedById": 1,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "产品设计",
+                            "avatar": "57480086e4b08609dd7ff7ad",
+                            "weight": 6,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686304
+                            ],
+                            "children": [
+                                {
+                                    "id": 831128,
+                                    "status": 1,
+                                    "createdById": 538363,
+                                    "createdAt": 1471433332000,
+                                    "updatedById": 538363,
+                                    "updatedAt": 1503281126000,
+                                    "tenantId": 1120882,
+                                    "fullname": "产品组",
+                                    "avatar": "57b44a741d355f7feec2b72d",
+                                    "weight": 1,
+                                    "parentId": 686304,
+                                    "level": 4,
+                                    "parentIds": [
+                                        1120882,
+                                        538332,
+                                        7646,
+                                        686304,
+                                        831128
+                                    ],
+                                    "permitOpen": false,
+                                    "deptGroupHide": 1,
+                                    "privacyAccesses": []
+                                },
+                                {
+                                    "id": 831129,
+                                    "status": 1,
+                                    "createdById": 538363,
+                                    "createdAt": 1471433348000,
+                                    "updatedById": 23279,
+                                    "updatedAt": 1503281126000,
+                                    "tenantId": 1120882,
+                                    "fullname": "产品运营组",
+                                    "avatar": "57b44a841d355f7feec2b735",
+                                    "weight": 2,
+                                    "parentId": 686304,
+                                    "level": 4,
+                                    "parentIds": [
+                                        1120882,
+                                        538332,
+                                        7646,
+                                        686304,
+                                        831129
+                                    ],
+                                    "permitOpen": false,
+                                    "deptGroupHide": 1,
+                                    "privacyAccesses": []
+                                },
+                                {
+                                    "id": 831130,
+                                    "status": 1,
+                                    "createdById": 538363,
+                                    "createdAt": 1471433356000,
+                                    "updatedById": 1,
+                                    "updatedAt": 1503281126000,
+                                    "tenantId": 1120882,
+                                    "fullname": "设计组",
+                                    "avatar": "57b44a8c1d355f7feec2b73a",
+                                    "weight": 3,
+                                    "parentId": 686304,
+                                    "level": 4,
+                                    "parentIds": [
+                                        1120882,
+                                        538332,
+                                        7646,
+                                        686304,
+                                        831130
+                                    ],
+                                    "permitOpen": false,
+                                    "deptGroupHide": 1,
+                                    "privacyAccesses": []
+                                }
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 734955,
+                            "status": 1,
+                            "createdById": 538362,
+                            "createdAt": 1466678347000,
+                            "updatedById": 538362,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "算法",
+                            "avatar": "576bbc4ee4b0cce7f0d44d24",
+                            "weight": 7,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                734955
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 686648,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1464340604000,
+                            "updatedById": 538363,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "系统运维",
+                            "avatar": "5748107de4b0009976b6e0a9",
+                            "weight": 8,
+                            "parentId": 7646,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                7646,
+                                686648
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        }
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 9735,
+                    "status": 1,
+                    "createdById": 538364,
+                    "createdAt": 1426834497000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "猎鹰管理部",
+                    "avatar": "5987ffe9000ffa491f2089a8",
+                    "weight": 3,
+                    "managerId": 538364,
+                    "managerUser": {
+                        "id": 538364,
+                        "fullname": "史有才",
+                        "avatar": "https://static.weibangong.com/files/56e2d957e4b01322050b3a10",
+                        "tenantId": 1120882,
+                        "access": 327677,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        9735
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 107238,
+                    "status": 1,
+                    "createdById": 1189,
+                    "createdAt": 1441857393000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "商务合作部",
+                    "avatar": "597b55e61801efc6222504d4",
+                    "weight": 4,
+                    "managerId": 46829,
+                    "managerUser": {
+                        "id": 46829,
+                        "fullname": "张靖",
+                        "avatar": "https://static.weibangong.com/files/55c175f6099243438a8b6289",
+                        "tenantId": 1120882,
+                        "access": 0,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        107238
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 538414,
+                    "status": 1,
+                    "createdById": 538350,
+                    "createdAt": 1457711490000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "行政部",
+                    "avatar": "56fb3894e4b008884ff36e80",
+                    "weight": 5,
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        538414
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 538415,
+                    "status": 1,
+                    "createdById": 538350,
+                    "createdAt": 1457711761000,
+                    "updatedById": 538363,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "人力资源部",
+                    "avatar": "56fb3895e4b008884ff36e83",
+                    "weight": 6,
+                    "managerId": 538362,
+                    "managerUser": {
+                        "id": 538362,
+                        "fullname": "宋洋",
+                        "avatar": "https://static.weibangong.com/files/56e2df0de4b0dc8b5a379217",
+                        "tenantId": 1120882,
+                        "access": 64829,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        538415
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 538421,
+                    "status": 1,
+                    "createdById": 538350,
+                    "createdAt": 1457712277000,
+                    "updatedById": 1,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "财务部",
+                    "avatar": "56fb3896e4b008884ff36e86",
+                    "weight": 7,
+                    "managerId": 538350,
+                    "managerUser": {
+                        "id": 538350,
+                        "fullname": "高涛",
+                        "avatar": "https://static.weibangong.com/files/57fa02d6195ad7df98406488",
+                        "tenantId": 1120882,
+                        "access": 196029,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        538421
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 607455,
+                    "status": 1,
+                    "createdById": 538357,
+                    "createdAt": 1460969045000,
+                    "updatedById": 1,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "市场部",
+                    "avatar": "57149e56e4b01e6b3978d4f4",
+                    "weight": 8,
+                    "managerId": 606532,
+                    "managerUser": {
+                        "id": 606532,
+                        "fullname": "杜宁",
+                        "avatar": "https://static.weibangong.com/files/57144ea9e4b05f901ef12846",
+                        "tenantId": 1120882,
+                        "access": 256,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        607455
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 840355,
+                    "status": 1,
+                    "createdById": 538363,
+                    "createdAt": 1471935477000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "综合管理部",
+                    "avatar": "5985b81e59585b003d577ad6",
+                    "weight": 10,
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        840355
+                    ],
+                    "children": [
+                        {
+                            "id": 840447,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1471937078000,
+                            "updatedById": 538363,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "销售运营部",
+                            "avatar": "57bbfa36db74b6a081081bd3",
+                            "weight": 1,
+                            "parentId": 840355,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                840355,
+                                840447
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 840454,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1471937100000,
+                            "updatedById": 538363,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "综合支持部",
+                            "avatar": "57bbfa4cdb74b6a081081bec",
+                            "weight": 3,
+                            "parentId": 840355,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                840355,
+                                840454
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 840455,
+                            "status": 1,
+                            "createdById": 538363,
+                            "createdAt": 1471937116000,
+                            "updatedById": 538363,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "信息管理部",
+                            "avatar": "57bbfa5c78c52aa7243391c2",
+                            "weight": 4,
+                            "parentId": 840355,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                840355,
+                                840455
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 1628872,
+                            "status": 1,
+                            "createdById": 538364,
+                            "createdAt": 1501936421000,
+                            "updatedById": 538364,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "培训部",
+                            "avatar": "5985bb25824b06d410829d53",
+                            "weight": 5,
+                            "managerId": 14208,
+                            "managerUser": {
+                                "id": 14208,
+                                "fullname": "王政杰",
+                                "avatar": "https://static.weibangong.com/files/58800410f0620e3d932809b5",
+                                "tenantId": 1120882,
+                                "access": 131005,
+                                "status": 1,
+                                "type": 2
+                            },
+                            "parentId": 840355,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                840355,
+                                1628872
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        }
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 1121752,
+                    "status": 1,
+                    "createdById": 23279,
+                    "createdAt": 1484788321000,
+                    "updatedById": 1,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "实施服务管理部",
+                    "avatar": "58801261351bbcd629be91e9",
+                    "weight": 11,
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        1121752
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                },
+                {
+                    "id": 1353592,
+                    "status": 1,
+                    "createdById": 538364,
+                    "createdAt": 1493106181000,
+                    "updatedById": 538364,
+                    "updatedAt": 1503281126000,
+                    "tenantId": 1120882,
+                    "fullname": "大客户部",
+                    "avatar": "58fefe054e1027d959e0c510",
+                    "weight": 12,
+                    "managerId": 538364,
+                    "managerUser": {
+                        "id": 538364,
+                        "fullname": "史有才",
+                        "avatar": "https://static.weibangong.com/files/56e2d957e4b01322050b3a10",
+                        "tenantId": 1120882,
+                        "access": 327677,
+                        "status": 1,
+                        "type": 2
+                    },
+                    "parentId": 538332,
+                    "level": 2,
+                    "parentIds": [
+                        1120882,
+                        538332,
+                        1353592
+                    ],
+                    "children": [
+                        {
+                            "id": 1370775,
+                            "status": 1,
+                            "createdById": 538364,
+                            "createdAt": 1493815414000,
+                            "updatedById": 538364,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "大客户部-华北大区",
+                            "avatar": "5909d07629f18e902cac28e0",
+                            "weight": 1,
+                            "managerId": 1376595,
+                            "managerUser": {
+                                "id": 1376595,
+                                "fullname": "陈龙-销售",
+                                "avatar": "https://static.weibangong.com/files/594c80cc247126995525d18f",
+                                "tenantId": 1120882,
+                                "access": 0,
+                                "status": 1,
+                                "type": 2
+                            },
+                            "parentId": 1353592,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                1353592,
+                                1370775
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 1370776,
+                            "status": 1,
+                            "createdById": 538364,
+                            "createdAt": 1493815465000,
+                            "updatedById": 538364,
+                            "updatedAt": 1503281126000,
+                            "tenantId": 1120882,
+                            "fullname": "大客户部-华东大区",
+                            "avatar": "5909d0a9ebaeb5c843e7c574",
+                            "weight": 2,
+                            "managerId": 1366127,
+                            "managerUser": {
+                                "id": 1366127,
+                                "fullname": "田鑫程",
+                                "avatar": "https://static.weibangong.com/files/595bd4a24116044c9d30ab87",
+                                "tenantId": 1120882,
+                                "access": 44925,
+                                "status": 1,
+                                "type": 2
+                            },
+                            "parentId": 1353592,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                1353592,
+                                1370776
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        },
+                        {
+                            "id": 1607138,
+                            "status": 1,
+                            "createdById": 538364,
+                            "createdAt": 1501242598000,
+                            "updatedById": 538364,
+                            "updatedAt": 1503306433000,
+                            "tenantId": 1120882,
+                            "fullname": "大客户部-华南大区",
+                            "avatar": "597b2503399553fc7ac70c08",
+                            "weight": 3,
+                            "managerId": 1366127,
+                            "managerUser": {
+                                "id": 1366127,
+                                "fullname": "田鑫程",
+                                "avatar": "https://static.weibangong.com/files/595bd4a24116044c9d30ab87",
+                                "tenantId": 1120882,
+                                "access": 44925,
+                                "status": 1,
+                                "type": 2
+                            },
+                            "parentId": 1353592,
+                            "level": 3,
+                            "parentIds": [
+                                1120882,
+                                538332,
+                                1353592,
+                                1607138
+                            ],
+                            "permitOpen": false,
+                            "deptGroupHide": 1,
+                            "privacyAccesses": []
+                        }
+                    ],
+                    "permitOpen": false,
+                    "deptGroupHide": 1,
+                    "privacyAccesses": []
+                }
+            ],
+            "permitOpen": true,
+            "permitDeptIds": [],
+            "permitUserIds": [
+                1155468
+            ],
+            "permitUsers": [
+                {
+                    "id": 1155468,
+                    "fullname": "张笑文",
+                    "avatar": "https://static.weibangong.com/files/58a414035373330048c73444",
+                    "tenantId": 1120882,
+                    "access": 0,
+                    "status": 3,
+                    "type": 2
+                }
+            ],
+            "deptGroupHide": 1
+        }
+    ],
+    "permitOpen": false,
+    "deptGroupHide": 1
+}]

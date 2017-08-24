@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../bower_components/angular-motion/dist/angular-motion.css"/>
+    <link rel="stylesheet" href="../bower_components/bootstrap-additions/dist/bootstrap-additions.min.css"/>
+    <script src="../bower_components/jquery/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/angular-strap/dist/angular-strap.js"></script>
+    <script src="../bower_components/angular-strap/dist/angular-strap.tpl.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="../bower_components/angular-dragdrop/src/angular-dragdrop.js"></script>
+    <script src="../bower_components/angular-ui-sortable/sortable.js"></script>
+    <script src="../bower_components/angular-bindonce/bindonce.js"></script>
+</head>
+<body ng-app="wbgComponent" ng-controller="mainCtrl">
+<div class="wrapper">
+    <ul class="pd-l-30" ng-if="orgTree"
+        data-view-list="viewList1"
+        data-tree="orgTree"
+        data-item-height="30"
+        data-is-get-child-from-api="1"
+        data-toggle-handler="toggleHandler"
+        data-get-child-node-api="getChildNodeApi({id:id})"
+        data-is-tree="1"
+        data-prop-map="propMap2"
+        infinite-scrollbar>
+        <li class="item-wrapper" ng-repeat="item in viewList1" ng-init="parentIdx=$index;isLast=$last"
+            ng-click="toggleHandler(item.id)" data-view-item-id="{{item.id}}">
+        <span ng-repeat="i in getNumber(item.level) track by $index" class="line-wrapper"><i
+                class="org-line up-area"
+                ng-class="{'brd-b':i==item.level-1,'brd-l':$first,'brd-r':i<item.level-1}"></i><i
+                class="org-line down-area"
+                ng-class="{'brd-r':i<item.level-1||(i==item.level-1&&item.level<viewList[parentIdx+1].level),'brd-l':$first,'brd-r-n':(i==item.level-2&&item.level>viewList[parentIdx+1].level)||isLast,'brd-l-n':isLast}"></i></span><span
+                class="item-name" ng-bind="item.txt"></span>
+        </li>
+    </ul>
+</div>
+<div class="wrapper">
+    <ul class="pd-l-30" ng-if="listData"
+        data-view-list="viewList2"
+        data-tree="listData"
+        data-item-height="30"
+        data-is-get-child-from-api="1"
+        data-toggle-handler="toggleHandler"
+        data-get-child-node-api="getChildNodeApi({id:id})"
+        infinite-scrollbar>
+        <li class="item-wrapper" ng-repeat="item in viewList2">
+            <span ng-bind="item.fullname"></span>
+        </li>
+    </ul>
+</div>
+<script src="../index.js"></script>
+</body>
+</html>
