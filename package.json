@@ -1,6 +1,6 @@
 {
   "name": "wbg-infinite-scrollbar",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "component description",
   "main": "dist/index.js",
   "scripts": {
