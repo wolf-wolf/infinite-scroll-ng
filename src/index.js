@@ -89,7 +89,7 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
     return {
         restrict: 'A',
         scope: {
-            tree: '=',                          // 树形结构
+            dataList: '=',                          // 数据
             viewList: '=',                      // 展示列表
             toggleHandler: '=?',                // 展开收起属性结构方法
             getChildNodeApi: '&?',              // 获取子列表数据api
@@ -101,7 +101,7 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
         },
         link: function (scope, element, attr) {
             // 属性结构必须为数组
-            if (!angular.isArray(scope.tree)) {
+            if (!angular.isArray(scope.dataList)) {
                 console.trace('tree must be array');
                 return false;
             }
@@ -164,11 +164,11 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
             dataMechanism.setShowCount(_calShowCount());                    // 设置展示个数
 
             if (scope.isTree) {
-                utilService.tree2Map(scope.tree, _nodeDict, scope.propList);    // 将树形结构转换为Map
-                dataMechanism.dataList.push(_nodeDict.get(scope.tree[0].id));   // 添加root节点
+                utilService.tree2Map(scope.dataList, _nodeDict, scope.propList);    // 将树形结构转换为Map
+                dataMechanism.dataList.push(_nodeDict.get(scope.dataList[0].id));   // 添加root节点
                 dataMechanism.dataList[0].childrenIds.forEach(id => dataMechanism.dataList.push(_nodeDict.get(id))); // 添加root节点的第一层子节点
             } else {
-                dataMechanism.dataList = scope.tree;
+                dataMechanism.dataList = scope.dataList;
             }
             _viewChangeOperate();
 
