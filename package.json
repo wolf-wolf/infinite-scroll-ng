@@ -9,7 +9,7 @@
     "prepublish": "npm run build"
   },
   "publishConfig": {
-    "registry": "http://103.235.225.30:4874/"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "hunter.li",
   "license": "ISC",
