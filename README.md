@@ -1,4 +1,4 @@
-# infinite-scroll
+infinite-scroll
 ==========
 AngularJS 1中使用的大量数据滚动指令
 
