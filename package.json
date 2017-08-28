@@ -13,7 +13,15 @@
     "prepublish": "npm run build"
   },
   "publishConfig": {
-    "registry": " https://npmjs.com/"
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "angular",
+    "scroll",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/wolf-wolf/infinite-scroll-ng/issues"
   },
   "author": "hunter.li",
   "license": "ISC",
