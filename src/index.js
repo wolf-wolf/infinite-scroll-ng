@@ -134,7 +134,7 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
                 if (scope.showCount && scope.showCount !== '0') {
                     return Number(scope.showCount);
                 } else {
-                    return Math.ceil(element.parent().height() / Number(scope.itemHeight) + 6);
+                    return Math.ceil($(element).parent().height() / Number(scope.itemHeight) + 6);
                 }
             }
 
@@ -142,8 +142,8 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
                 let _topH = itemHeight * dataMechanism.cursor.start;
                 let _bottomH = itemHeight * (dataMechanism.dataList.length - dataMechanism.viewList.length - dataMechanism.cursor.start);
 
-                element.parent().children().first().css('height', _topH);
-                element.parent().children().last().css('height', _bottomH);
+                $(element).parent().children().first().css('height', _topH);
+                $(element).parent().children().last().css('height', _bottomH);
             }
 
             let _time = new Date().getTime();                               // 获取当前时间，定义占位符Id
@@ -151,8 +151,8 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
             let dataMechanism = new DataMechanism(scope.viewList);          // 定义数据处理机制对象
             let _itemH = Number(scope.itemHeight);                          // 单独一个节点的高度
 
-            element.parent().prepend(`<i id="${'up_p_' + _time + '_' + Math.ceil(Math.random() * 1000)}" style="display: block"></i>`);
-            element.parent().append(`<i id="${'down_p_' + _time + '_' + Math.ceil(Math.random() * 1000)}" style="display: block"></i>`);
+            $(element).parent().prepend(`<i id="${'up_p_' + _time + '_' + Math.ceil(Math.random() * 1000)}" style="display: block"></i>`);
+            $(element).parent().append(`<i id="${'down_p_' + _time + '_' + Math.ceil(Math.random() * 1000)}" style="display: block"></i>`);
 
             function _viewChangeOperate() {
                 utilService.safeApply(scope, function () {
@@ -172,7 +172,7 @@ angular.module(moduleName).directive('infiniteScrollbar', function ($timeout, Da
             }
             _viewChangeOperate();
 
-            element.parent().bind('scroll', function (event) {
+            $(element).parent().bind('scroll', function (event) {
                 if (dataMechanism.dataList.length > dataMechanism.showCount) {      // 若数据展示条数过少，则无需调整
                     let _targetIdx = Math.floor(event.target.scrollTop / _itemH);       // 计算当前需要展示的索引
 
