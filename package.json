@@ -1,15 +1,19 @@
 {
-  "name": "wbg-infinite-scrollbar",
-  "version": "1.0.0",
-  "description": "component description",
+  "name": "infinite-scroll-ng",
+  "version": "1.0.3",
+  "description": "大量列表的部分展示",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolf-wolf/infinite-scroll-ng.git"
+  },
   "scripts": {
     "test": "webpack-dev-server",
     "build": "webpack --prod",
     "prepublish": "npm run build"
   },
   "publishConfig": {
-    "registry": "http://103.235.225.30:4874/"
+    "registry": " https://npmjs.com/"
   },
   "author": "hunter.li",
   "license": "ISC",
