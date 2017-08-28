@@ -1,6 +1,6 @@
 {
   "name": "infinite-scroll-ng",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "大量列表的部分展示",
   "main": "dist/index.js",
   "repository": {
@@ -42,5 +42,11 @@
     "webpack-hot-middleware": "^2.13.0",
     "babel-runtime": "6.22.0",
     "yargs": "^6.2.0"
+  },
+  "Dependents": {
+    "angular": "",
+    "angular-sanitize": "",
+    "infinite-scroll-ng": "",
+    "jquery": ""
   }
 }
